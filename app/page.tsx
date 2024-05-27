@@ -220,7 +220,7 @@ import Image from "next/image";
             
           return (
             
-      <section className="flex overflow-hidden py-4 w-full relative px-6 justify-center items-center">
+      <section className="flex max-w-[1130px]  overflow-hidden py-4 w-full relative px-6 justify-center items-center">
 
       <div className='absolute  z-40 w-full flex justify-between items-center h-full'>
 
@@ -247,9 +247,9 @@ import Image from "next/image";
 
                 <div ref={imagebloc} className={` ${isActive.isActive1 && "active"} scale-100 md:w-full basis-80  md:basis-full  origin-right md:origin-left  imagebloc  relative top-0 left-0   flex  justify-start md:justify-center items-center z-0  w-full  `}>
 
-                <Image  src={woman1} alt="map" className='relative   z-20  top-0 left-0 w-10/12 h-[350px] md:h-[650px] object-cover '/>
-                <Image  src={woman1} alt="map" className='absolute   z-10 left-[4%]  w-10/12  md:-left-[4%] h-[300px] md:h-[600px]   object-cover '/>
-                <Image  src={woman1} alt="map" className='absolute z-0 left-[13%]    w-10/12 md:-left-[13%]  h-[220px] md:h-[500px]  object-cover '/>
+                <Image  src={woman1} alt="map" className='relative   z-20  top-0 left-0  h-[350px] md:h-[650px] object-cover '/>
+                <Image  src={woman1} alt="map" className='absolute   z-10 left-[4%]    md:-left-[4%] h-[300px] md:h-[600px]   object-cover '/>
+                <Image  src={woman1} alt="map" className='absolute z-0 left-[13%]     md:-left-[13%]  h-[220px] md:h-[500px]  object-cover '/>
                 </div>  
 
               
