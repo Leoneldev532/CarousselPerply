@@ -198,18 +198,20 @@ import Image from "next/image";
                     scale: 1,
                     duration: 1,
                   },"-=0.2")
-                }
-                gl.to(txtbloc2.current, {
+
+                  gl.to(txtbloc2.current, {
                       
-                  opacity: 0,
-                  duration:0.4,
-                  x:20,
-                }).to(txtbloc1.current, {
-                  delay:0.4,
-                  opacity: 1,
-                  x:10,
-                  duration:1
-                })
+                    opacity: 0,
+                    duration:0.4,
+                    x:20,
+                  }).to(txtbloc1.current, {
+                    delay:0.4,
+                    opacity: 1,
+                    x:10,
+                    duration:1
+                  })
+                }
+           
               }
             
             
