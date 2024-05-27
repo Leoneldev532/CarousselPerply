@@ -274,26 +274,26 @@ import Image from "next/image";
 
                       <div ref={txtbloc} className={` txtbloc ${isActive.isActive1 && "active"}  opacity-100 relative top-0 left-0 flex flex-col gap-4 justify-start items-start w-full`}>
 
-<h2 className='font-bold text-3xl  md:text-4xl max-w-md text-balance '>{"The energy she brings to each lesson is amazing."}</h2>
-<b className='font-bold'>{"Ismael"}</b>
-<span>{"English learner on Preply"}</span>
+<h2 className='font-bold text-3xl  md:text-4xl max-w-lg text-balance '>{"The energy she brings to each lesson is amazing."}</h2>
+<b className='font-bold'>{"Sara"}</b>
+<span>{"English learner on HighCss"}</span>
 
 </div>
 
                       <div ref={txtbloc1}    className={` txtbloc ${isActive.isActive2 && "active"}  opacity-0  absolute  top-0 left-0 flex flex-col gap-4 justify-start items-start w-full`}>
 
-<h2 className='font-bold text-3xl  md:text-4xl max-w-md text-balance '>{"The energy she brings to each lesson is amazing. 2"}</h2>
+<h2 className='font-bold text-3xl  md:text-4xl max-w-lg text-balance '>{"Education is not just about knowledge, but also wisdom."}</h2>
 <b className='font-bold'>{"Samuel"}</b>
-<span>{"English learner on Preply"}</span>
+<span>{"English learner on HighCss"}</span>
 
 </div>
 
                     
                       <div ref={txtbloc2}  className={` txtbloc ${isActive.isActive3 && "active"}  opacity-0 absolute top-0 left-0  flex flex-col gap-4 justify-start items-start w-full`}>
 
-<h2 className='font-bold text-3xl  md:text-4xl max-w-md text-balance '>{"The energy she brings to each lesson is amazing. 3"}</h2>
-<b className='font-bold'>{"Samuel"}</b>
-<span>{"English learner on Preply"}</span>
+<h2 className='font-bold text-3xl  md:text-4xl max-w-lg text-balance '>{"Lighting the way to a brighter future through education."}</h2>
+<b className='font-bold'>{"Ousmans"}</b>
+<span>{"English learner on HighCss"}</span>
 
 </div>
                 
