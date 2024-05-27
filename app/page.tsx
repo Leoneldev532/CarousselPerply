@@ -224,14 +224,14 @@ import Image from "next/image";
 
       <div className='absolute  z-40 w-full flex justify-between items-center h-full'>
 
-        <button onClick={()=>prevSlide()} className='p-4 mr-36   rounded-xl flex justify-center items-center bg-gray-200 '>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={20} height={20} color={"#a3a1a1"} fill={"none"}>
+        <button onClick={()=>prevSlide()} className='p-4 mr-36 group hover:bg-red-500   rounded-xl flex justify-center items-center bg-gray-200 '>
+        <svg xmlns="http://www.w3.org/2000/svg" className=" group-hover:text-white transition-all ease duration-300" viewBox="0 0 24 24" width={20} height={20} color={"#a3a1a1"} fill={"none"}>
     <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 </svg>
         </button>
 
-        <button onClick={()=>nextSlide()} className='p-4 rounded-xl flex justify-center items-center bg-gray-200 '>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={20} height={20} color={"#a3a1a1"} fill={"none"}>
+        <button onClick={()=>nextSlide()} className='p-4 rounded-xl group hover:bg-red-500 flex justify-center items-center bg-gray-200 '>
+        <svg xmlns="http://www.w3.org/2000/svg"  className=" group-hover:text-white transition-all ease duration-300" viewBox="0 0 24 24" width={20} height={20} color={"#a3a1a1"} fill={"none"}>
     <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 </svg>
         </button>
